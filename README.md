@@ -2,6 +2,8 @@
 
 Wrapper for [hot-shots](https://github.com/brightcove/hot-shots) statsd client that adds key-value telegraf tags handling.
 
+[![Build Status](https://travis-ci.org/lautis/hot-shots-deux.svg?branch=master)](https://travis-ci.org/lautis/hot-shots-deux)
+
 ## Usage
 
 ```js
