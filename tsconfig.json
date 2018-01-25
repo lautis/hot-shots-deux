@@ -5,5 +5,6 @@
     "declaration": true,
     "outDir": "./dist",
     "strict": true
-  }
+  },
+  "files": ["index.ts"]
 }
