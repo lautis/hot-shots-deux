@@ -1,6 +1,6 @@
 {
   "name": "hot-shots-deux",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Hot Shots wrapper with key-value Telegraf tags",
   "main": "dist/index.js",
   "scripts": {
