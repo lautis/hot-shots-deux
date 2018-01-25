@@ -4,7 +4,9 @@
   "description": "Hot Shots wrapper with key-value Telegraf tags",
   "main": "dist/index.js",
   "scripts": {
+    "clean": "rm -r dist/*",
     "build": "tsc --project tsconfig.json",
+    "prepublishOnly": "npm run clean; npm run build",
     "test": "mocha -r ts-node/register tests.ts"
   },
   "keywords": [
