@@ -9,11 +9,15 @@
     "prepublishOnly": "npm run clean; npm run build",
     "test": "mocha -r ts-node/register tests.ts"
   },
-  "keywords": [
-    "hot-shots",
-    "statsd",
-    "telegraf"
-  ],
+  "homepage": "https://github.com/lautis/hot-shots-deux",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lautis/hot-shots-deux.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lautis/hot-shots-deux/issues"
+  },
+  "keywords": ["hot-shots", "statsd", "telegraf"],
   "author": "Ville Lautanala <lautis@gmail.com>",
   "license": "ISC",
   "devDependencies": {
